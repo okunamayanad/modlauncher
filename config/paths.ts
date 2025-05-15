@@ -1,6 +1,6 @@
 'use strict';
 
-const path = require('path');
+import path from 'path';
 
 const PATHS = {
   src: path.resolve(__dirname, '../src'),
