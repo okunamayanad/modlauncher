@@ -17,6 +17,7 @@
     "@babel/plugin-transform-class-properties": "^7.27.1",
     "@babel/preset-env": "^7.28.0",
     "@babel/preset-react": "^7.27.1",
+    "@babel/preset-typescript": "^7.27.1",
     "@tailwindcss/postcss": "^4.1.11",
     "@types/chrome": "^0.0.181",
     "@types/react": "^19.1.8",
@@ -40,6 +41,7 @@
   "dependencies": {
     "babel-loader": "^10.0.0",
     "html-webpack-plugin": "^5.6.3",
+    "lucide-react": "^0.525.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   }

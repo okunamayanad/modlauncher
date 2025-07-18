@@ -12,7 +12,7 @@ const config = (env, argv) =>
   merge(common, {
     entry: {
       popup: path.join(PATHS.src, "ts", "popup.tsx"),
-      contentScript: path.join(PATHS.src, "ts", "contentScript.ts"),
+      contentScript: path.join(PATHS.src, "ts", "contentScript.tsx"),
       background: path.join(PATHS.src, "ts", "background.ts"),
     },
     plugins: [

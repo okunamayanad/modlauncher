@@ -2,9 +2,13 @@
   "compilerOptions": {
     "jsx": "react-jsx",
     "rootDir": "src",
-    "target": "es6",
+    "target": "es2022",
     "module": "commonjs",
     "esModuleInterop": true,
-    "strict": true
+    "strict": true,
+    "paths": {
+      "@/*": ["./src/*"],
+      "@modrinth/*": ["./modrinth/packages/*"],
+    }
   }
 }

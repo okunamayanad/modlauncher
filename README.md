@@ -1,4 +1,4 @@
-# <img src="public/icons/icon_48.png" width="45" align="left"> Modlauncher
+# <img src="public/icons/icon_48.png" width="39" align="left"> Modlauncher
 
 My Chrome Extension
 

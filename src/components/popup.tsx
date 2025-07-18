@@ -1,5 +1,6 @@
 import React from "react";
+import Button from "./subcomponents/button";
 
-export default function TestButton() {
-  return <p>WIP</p>;
+export default function Popup() {
+  return <Button>WIP</Button>;
 }

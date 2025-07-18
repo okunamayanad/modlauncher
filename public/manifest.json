@@ -19,7 +19,7 @@
   "permissions": ["storage"],
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
+      "matches": ["https://modrinth.com/*"],
       "run_at": "document_idle",
       "js": ["contentScript.js"]
     }
